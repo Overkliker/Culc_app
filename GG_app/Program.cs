@@ -64,7 +64,7 @@
         else if (znak == "1%")
         {
             Console.WriteLine("Введите число из которого нужно найти 1%");
-            int f = Convert.ToInt32(Console.ReadLine());
+            double f = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(f / 100);
         }
